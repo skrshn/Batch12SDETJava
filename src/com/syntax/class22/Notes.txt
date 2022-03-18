@@ -1,0 +1,5 @@
+super keyword:
+super keyword is like the "this", it refers to the parent class object for example we can access the fields method or
+constructors of parent class inside the child class using this keyword.
+super keyword uses in 3 different ways.
+1)
