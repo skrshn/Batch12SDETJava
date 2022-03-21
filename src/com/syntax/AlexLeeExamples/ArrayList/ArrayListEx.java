@@ -14,6 +14,7 @@ public class ArrayListEx {
         fruitList.add("Mango");
         fruitList.add("Apple");
         fruitList.add("Berry");
+        fruitList.add(1);
 
         System.out.println(fruitList);
 
