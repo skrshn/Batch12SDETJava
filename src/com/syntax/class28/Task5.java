@@ -22,13 +22,9 @@ public class Task5 {
 
         Iterator<Insurance> iterator= ins.iterator();
         while(iterator.hasNext()){
-            iterator.next().getQuote();
-        }
-
-        Iterator<Insurance> iterator2= ins.iterator();
-
-        while(iterator2.hasNext()){
-            iterator2.next().cancelInsurance();
+            Insurance i = iterator.next();
+            i.getQuote();
+            i.cancelInsurance();
         }
     }
 }
