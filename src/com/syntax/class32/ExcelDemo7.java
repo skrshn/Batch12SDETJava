@@ -21,6 +21,8 @@ public class ExcelDemo7 {
         row.createCell(3).setCellValue("Texas");
         FileOutputStream fileOutputStream= new FileOutputStream(path);
         workbook.write(fileOutputStream);
+        fileOutputStream.close();
+        fileInputStream.close();
 
     }
 }
